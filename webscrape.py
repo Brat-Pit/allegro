@@ -19,7 +19,7 @@ driver.implicitly_wait(10)
 url="https://allegro.pl/kategoria/swiece-i-swieczniki-swiece-254295?stan=nowe&offerTypeBuyNow=1&string=sojowa&order=qd"
 
 driver.get(url)
-#service's internal add : required user's decision
+#service's internal add: required manual decision
 pause() 
    
 for subpage_no in range(1,max_number_subpages):
